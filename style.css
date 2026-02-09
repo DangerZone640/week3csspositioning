@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+#jumpMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+#jumpMenu h2 {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+#jumpMenu a {
+    color: #ddd;
+    text-decoration: none;
+    line-height: 2;
+    display: block;
+}
+#jumpMenu a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+main {
+    margin-left: 15%;
+    padding-top: 120px; 
+    padding-bottom: 60px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+header p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+header nav button {
+    margin: 0 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+header nav button:hover {
+    background-color: #ddd;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+article {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+article h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+article a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#thanks {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    box-shadow: -2px -2px 5px rgba(0,0,0,0.2);
+    z-index: 2000;
+}
+footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+address div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+}
